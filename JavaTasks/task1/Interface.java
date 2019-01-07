@@ -1,4 +1,5 @@
 interface V1{
+	 int hj=89;
 	 final int b=4;
 }
 
@@ -43,8 +44,9 @@ class Bike implements Vehicle{
     }
 }
 
-class Interface {
+class Interface{
 	public static void main (String[] args) {
+        V1 v = new Auto();
         Auto auto = new Auto();
         auto.changeGear(2);
         auto.speed(3);
@@ -60,3 +62,4 @@ class Interface {
         bike.printData();
 	}
 }
+
